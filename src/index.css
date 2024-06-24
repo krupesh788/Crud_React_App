@@ -1,0 +1,33 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App {
+  background-color: powderblue;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+}
+
+input, textarea {
+  display: block;
+  margin: 10px auto;
+  padding: 10px;
+  width: 80%;
+}
+input[type="text"]{
+
+  border: none;
+}
+button {
+  background-color: rgb(192, 28, 28);
+  color: white;
+  padding: 10px 30px;
+  cursor: pointer;
+  border: none;
+  margin: 10px;
+  border-radius: 50px;
+}
